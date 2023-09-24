@@ -21,7 +21,8 @@ p{
    
 }
 .navbar-setting{
-    position: relative;
+    position: absolute;
+    right: -50px;
 }
 
 
@@ -189,18 +190,4 @@ p{
     .title-quote{
         font-size : 3rem;
     }
-.navbar-toggler-icon {
-    display: inline-block;
-    width: 1.5em;
-    height: 1.5em;
-    vertical-align: middle;
-    content: "";
-    background: 50%/100% 100% no-repeat;
-}
-
-.navbar-setting{
-    position: relative;
-
-}
-
 }

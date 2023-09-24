@@ -1,0 +1,42 @@
+
+.navbar-home{
+    background-color: #3bc931;
+   
+    margin: 7% 14%;
+}
+.links{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 1.20rem;
+    font-weight: 300;
+}
+b, strong {
+    font-weight: 900;
+    font-size: 48px;
+    color: white;
+}
+.our-team{
+    color :black;
+}
+.ourmission{
+    background-color: #3bc931;
+}
+.social-link {
+    width: 30px;
+    height: 30px;
+    border: 1px solid #3bc931;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #666;
+    border-radius: 50%;
+    transition: all 0.3s;
+    font-size: 0.9rem;
+  }
+  
+  .social-link:hover,
+  .social-link:focus {
+    background: #3bc931;;
+    text-decoration: none;
+    color: #555;
+  }
+  

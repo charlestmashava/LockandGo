@@ -37,7 +37,7 @@ p{
 }
 
 .navbar{
-    margin: 0;
+    margin: 100px;
     padding: 0 2px 4rem;
 }
 
@@ -186,8 +186,332 @@ p{
     padding:20px;
 }
 
+@media (max-width : 1440px){
+    .title-quote{
+        font-size : 3rem;
+    }
+    
+.navbar {
+    margin: 100px;
+    padding: 0 2px 4rem;
+}
+.brand-title{
+    font-family: 'Croissant One', cursive;
+    font-size: 50px;
+    font-weight: 700;
+}
+
+.navbar-setting {
+    position: relative;
+    right: -50px;
+}
+.lock {
+    width: 50%;
+    position: relative;
+    border-radius: 20%;
+    top: -50px;
+}
+}
+
+
+
 @media (max-width : 1024px){
     .title-quote{
         font-size : 3rem;
     }
+    
+.navbar {
+    margin: 100px;
+    padding: 0 2px 4rem;
+}
+.brand-title{
+    font-family: 'Croissant One', cursive;
+    font-size: 3rem;
+    font-weight: 700;
+    margin:-90px;
+}
+
+.card-button-standard {
+    background-color: #3bc931;
+    padding: 10px 60px 15px;
+}
+
+.card-button-basic {
+    background-color: peachpuff;
+    /* margin: 40px; */
+    padding: 10px 60px 10px;
+}
+.card-button-premium {
+    background-color: purple;
+    /* margin: 40px
+px
+; */
+    padding: 10px 60px 10px;
+}
+
+lock {
+    width: 50%;
+    position: relative;
+    left: 200px;
+    border-radius: 20%;
+    top: -50px;
+}
+}
+
+
+
+@media (max-width : 768px){
+    #pricing {
+        text-align: center;
+        padding: 10px;
+        margin-left: 48px;
+    }
+    .card-button-premium {
+        background-color: purple;
+        position: relative;
+        right: 42px;
+    }
+    .card-button-standard {
+        background-color: #3bc931;
+        position: relative;
+        right: 42px;
+    }
+    .card-button-basic {
+        background-color: ppeachpuff;
+        position: relative;
+        right: 42px;
+    }
+    .lock {
+        width: 50%;
+        position: relative;
+        left: 40px;
+        border-radius: 20%;
+        top: -50px;
+    }
+    .btn-download{
+        margin :1px;
+    }
+}
+
+@media (max-width: 425px){
+#pricing {
+    text-align: center;
+    padding: 10px;
+    margin-left: 8px;
+}
+.cta-title {
+    line-height: 1.5;
+    font-weight: 900;
+    color: white;
+    font-size: 1rem;
+    font-style: italic;
+}
+.sponsers-text {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 1rem;
+    line-height: 1.5;
+    font-weight: 700;
+}
+.lock {
+    width: 100px;
+    left: 95px;
+    border-radius: 20%;
+    top: -455px;
+}
+.navbar-toggler-icon {
+    display: inline-block;
+    width: 1.5em;
+    height: 1.5em;
+    vertical-align: middle;
+    content: "";
+    position: relative;
+    top: 50px;
+    background: 50%/100% 100% no-repeat;
+}
+.card-button-basic {
+    background-color: peachpuff;
+    position: relative;
+    right: 2px;
+}
+.card-button-standard {
+    background-color: #3bc931;
+    position: relative;
+    right: 2px;
+}
+
+.card-button-premium {
+    background-color: purple;
+    position: relative;
+    right: 2px;
+}
+}
+
+@media (max-width : 375px){
+
+    .cta-title {
+        line-height: 1.5;
+        font-weight: 900;
+        color: white;
+        font-size: 20px;
+        font-style: italic;
+    }
+
+    .sponsers-text {
+        font-family: 'Courier New', Courier, monospace;
+        font-size: 20px;
+        line-height: 1.5;
+        font-weight: 700;
+    }
+
+    .pricing-heading {
+        font-weight: 700;
+        font-size: 30px;
+        line-height: 1.5;
+    }
+
+    .card-button-basic {
+        background-color: ppeachpuff;
+        position: relative;
+        left: 4px;
+    }
+
+    .card-button-standard {
+        background-color: #3bc931;
+        position: relative;
+        left: 4px;
+    }
+    .card-button-premium {
+        background-color: purple;
+        position: relative;
+        left: 4px;
+    }
+    .lock {
+        width: 40%;
+        position: relative;
+        left: 70px;
+        border-radius: 20%;
+        top: -480px;
+    }
+    .navbar-toggler-icon {
+        display: inline-block;
+        width: 1.5em;
+        height: 1.5em;
+        vertical-align: middle;
+        content: "";
+        background: 50%/100% 100% no-repeat;
+        position: relative;
+        top: 20px;
+    }
+}
+
+
+@media (max-width : 320px){
+.navbar-setting {
+    position: relative;
+    right: -50px;
+}
+button, select {
+    left: 5px;
+    position: relative;
+    text-transform: none;
+}
+
+.title-quote{
+    font-size : 20px;
+    position: relative;
+    left: 10px;
+}
+.card-button-basic {
+    background-color: ppeachpuff;
+    position: relative;
+    left: 0px;
+}
+.card-button-standard {
+    background-color: #3bc931;
+    position: relative;
+    left: 0px;
+}
+.card-button-premium {
+    background-color: purple;
+    position: relative;
+    left: 0px;
+}
+
+.brand-title{
+    font-family: 'Croissant One', cursive;
+    font-size: 25px;
+    font-weight: 700;
+    position: relative;
+    left: 10px;
+}
+.lock {
+    width: 90px;
+    position: relative;
+    left: 50px;
+    border-radius: 20%;
+    top: -320px;
+    /* size: 2px; */
+}
+#pricing {
+    text-align: center;
+    padding: 0;
+    margin-right: 10px;
+}
+
+.sponsers-text {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 20px;
+    line-height: 1.5;
+    font-weight: 700;
+
+}
+.cta-title {
+    line-height: 1.5;
+    font-weight: 900;
+    color: white;
+    font-size: 25px;
+    font-style: italic;
+}
+
+.btn-dark {
+    color: #fff;
+    background-color: #343a40;
+    border-color: #343a40;
+    position: relative;
+    left: 55px;
+}
+
+.btn-download {
+    margin: 5% 3% 5% 0;
+    padding: 5%;
+    position: relative;
+    left: 30px;
+}
+
+.btn-dark1 {
+    color: #fff;
+    background-color: #343a40;
+    border-color: #343a40;
+    position: relative;
+
+}
+
+.btn-download1 {
+    margin: 5% 3% 5% 0;
+    padding: 5%;
+    position: relative;
+
+}
+
+.navbar-toggler-icon {
+    display: inline-block;
+    width: 1.5em;
+    height: 1.5em;
+    vertical-align: middle;
+    content: "";
+    background: 50%/100% 100% no-repeat;
+    position: relative;
+    right: 25px;
+}
+
 }

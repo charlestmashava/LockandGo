@@ -51,6 +51,49 @@ b, strong {
     font-family: 'Croissant One', cursive;
     font-size: 3rem;
     font-weight: 700;
+}
+
+@media (max-width :425px) {
+    .brand-title {
+        font-family: 'Croissant One', cursive;
+        font-size: 3rem;
+        font-weight: 700;
+        margin: 1px;
+    }
     
-   
+}
+
+@media (max-width :725px) {
+    .brand-title {
+        font-family: 'Croissant One', cursive;
+        font-size: 3rem;
+        font-weight: 700;
+        margin: -20px;
+    }
+    
+}
+
+
+
+
+@media(max-width :325px){
+    .navbar-toggler-icon {
+        display: inline-block;
+        width: 1.5em;
+        height: 1.5em;
+        vertical-align: middle;
+        content: "";
+        background: 50%/100% 100% no-repeat;
+        position: relative;
+        top: 30px;
+    }
+    
+    .brand-title {
+        font-family: 'Croissant One', cursive;
+        font-size: 3rem;
+        font-weight: 700;
+        margin: -80px;
+    }
+    
+
 }

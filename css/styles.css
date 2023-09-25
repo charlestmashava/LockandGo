@@ -190,6 +190,44 @@ p{
     .title-quote{
         font-size : 3rem;
     }
+    #pricing {
+        text-align: center;
+        padding: 100px;
+        margin-right: 100px;
+    }
+    #features {
+        padding: 5% 14%;
+        text-align: center;
+        margin-right: 100px;
+    }
+    .sponsers-text {
+        font-family: 'Courier New', Courier, monospace;
+        font-size: 2rem;
+        line-height: 1.5;
+        font-weight: 700;
+        margin-right: 100px;
+    }
+    .carousel-control-next {
+    }
+    #press {
+        background-color: #3bc931;
+        text-align: center;
+        padding: 3%;
+        margin-right: 1px;
+    }
+    #footer {
+        text-align: center;
+        padding: 7% 14%;
+        margin-right: 100px;
+    }
+    .cta-title {
+        line-height: 1.5;
+        font-weight: 900;
+        color: white;
+        font-size: 2.5rem;
+        font-style: italic;
+        margin-right: 100px;
+    }
     
 .navbar {
     margin: 100px;
@@ -218,6 +256,17 @@ p{
 @media (max-width : 1024px){
     .title-quote{
         font-size : 3rem;
+    }
+    .carousel-control-next {
+        left: 785px;
+    }
+    .sponsers-text {
+        font-family: 'Courier New', Courier, monospace;
+        font-size: 3rem;
+        line-height: 1.5;
+        font-weight: 700;
+        font-size: 25px;
+        margin-right: 80px;
     }
     
 .navbar {
@@ -248,13 +297,45 @@ px
 ; */
     padding: 10px 60px 10px;
 }
-
-lock {
+#features {
+    padding: 5% 14%;
+    text-align: center;
+    margin-right: 100px;
+}
+.lock {
     width: 50%;
     position: relative;
-    left: 200px;
+    left: 0px;
     border-radius: 20%;
     top: -50px;
+}
+
+#footer {
+    text-align: center;
+    padding: 7% 14%;
+    margin-right: 100px;
+}
+
+#pricing {
+    text-align: center;
+    padding: 50px;
+    margin-right: 100px;
+}
+
+.card-button-standard {
+    background-color: #3bc931;
+    padding: 10px 10px 10px 15px;
+    margin-right: 50px;
+}
+.card-button-basic {
+    background-color: purple;
+    padding: 10px 10px 10px 15px;
+    margin-right: 50px;
+}
+.card-button-premium {
+    background-color: peachpuff;
+    padding: 10px 10px 10px 15px;
+    margin-right: 50px;
 }
 }
 
@@ -424,25 +505,29 @@ button, select {
 .card-button-basic {
     background-color: ppeachpuff;
     position: relative;
-    left: 0px;
+    left: -30px;
 }
 .card-button-standard {
     background-color: #3bc931;
     position: relative;
-    left: 0px;
+    left: -30px;
 }
 .card-button-premium {
     background-color: purple;
     position: relative;
-    left: 0px;
+    left: -30px;
 }
-
+p {
+    margin-top: 0;
+    margin-bottom: 1rem;
+    margin-right: 20px;
+}
 .brand-title{
     font-family: 'Croissant One', cursive;
     font-size: 25px;
     font-weight: 700;
     position: relative;
-    left: 10px;
+    right: 27px;
 }
 .lock {
     width: 90px;
@@ -469,8 +554,24 @@ button, select {
     line-height: 1.5;
     font-weight: 900;
     color: white;
-    font-size: 25px;
+    font-size: 8px;
     font-style: italic;
+    margin-right: 30px;
+}
+
+.card {
+    position: relative;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    min-width: 0;
+    word-wrap: break-word;
+    background-color: #fff;
+    background-clip: border-box;
+    border: 1px solid rgba(0,0,0,.125);
+    border-radius: 0.25rem;
+    padding: 25px;
 }
 
 .btn-dark {
@@ -502,6 +603,45 @@ button, select {
     position: relative;
 
 }
+.navbar-nav {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    padding-left: 0;
+    margin-bottom: 0;
+    font-size: 2;
+    list-style: none;
+    position: relative;
+    right: 80px;
+}
+.carousel-control-next {
+    right: 0;
+    position: relative;
+    top: 66px;
+}
+
+.carousel-control-next, .carousel-control-prev {
+    position: relative;
+    top: 90px;
+    bottom: 50px;
+    z-index: 1;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-align: center;
+    align-items: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    width: 15%;
+    padding: 0;
+    color: #fff;
+    text-align: center;
+    background: 0 0;
+    border: 0;
+    opacity: .5;
+    left: 240px;
+    transition: opacity .15s ease;
+}
 
 .navbar-toggler-icon {
     display: inline-block;
@@ -511,7 +651,46 @@ button, select {
     content: "";
     background: 50%/100% 100% no-repeat;
     position: relative;
-    right: 25px;
+    left: 25px;
+    top : -20px
+}
+
+#pricing {
+    text-align: center;
+    padding: 0;
+    margin-right: 36px;
+    font-size: 10px;
+}
+.carousel-item {
+    padding: 7% 5% 4% 3%;
+    margin-right: 10px;
+}
+#features {
+    padding: 5% 14%;
+    text-align: center;
+    margin-right: 20px;
+}
+
+
+em {
+    margin-right: 60px;
+    outline: 1px solid #800b41!important;
+    text-align: center;
+    font-size: 10px;
+}
+
+.sponsers-text {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 10px;
+    line-height: 1.5;
+    font-weight: 700;
+    margin-right: 27px;
+}
+
+.carousel-control-prev-icon {
+    position: relative;
+    top: 3px;
+    left: 5px;
 }
 
 }

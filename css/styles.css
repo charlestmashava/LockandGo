@@ -52,7 +52,7 @@ p{
 
 .lock{
     width: 50%;
-    position: absolute;
+    position: relative;
     right: 20px;
     border-radius: 20%;
     top:-50px;
@@ -118,9 +118,16 @@ p{
     width :15%;
     margin : 20px 15px 20px ;
 }
-#pricing{
+#pricing {
     text-align: center;
     padding: 100px;
+    position: relative;
+}
+#footer {
+    left: -30px;
+    text-align: center;
+    padding: 7% 14%;
+    position: relative;
 }
 .pricing-heading{
   font-weight: 700;
@@ -178,78 +185,13 @@ p{
     font-style: italic;
 }
 
-#footer{
-    text-align: center;
-    padding: 7% 14%;
-}
+
 .foot-icon{
     padding:20px;
 }
 
-@media (max-width : 1440px){
-    .title-quote{
-        font-size : 3rem;
-    }
-    #pricing {
-        text-align: center;
-        padding: 100px;
-        margin-right: 100px;
-    }
-    #features {
-        padding: 5% 14%;
-        text-align: center;
-        margin-right: 100px;
-    }
-    .sponsers-text {
-        font-family: 'Courier New', Courier, monospace;
-        font-size: 2rem;
-        line-height: 1.5;
-        font-weight: 700;
-        margin-right: 100px;
-    }
-    .carousel-control-next {
-    }
-    #press {
-        background-color: #3bc931;
-        text-align: center;
-        padding: 3%;
-        margin-right: 1px;
-    }
-    #footer {
-        text-align: center;
-        padding: 7% 14%;
-        margin-right: 100px;
-    }
-    .cta-title {
-        line-height: 1.5;
-        font-weight: 900;
-        color: white;
-        font-size: 2.5rem;
-        font-style: italic;
-        margin-right: 100px;
-    }
-    
-.navbar {
-    margin: 100px;
-    padding: 0 2px 4rem;
-}
-.brand-title{
-    font-family: 'Croissant One', cursive;
-    font-size: 50px;
-    font-weight: 700;
-}
 
-.navbar-setting {
-    position: relative;
-    right: -50px;
-}
-.lock {
-    width: 50%;
-    position: relative;
-    border-radius: 20%;
-    top: -50px;
-}
-}
+
 
 
 
@@ -301,6 +243,8 @@ px
     padding: 5% 14%;
     text-align: center;
     margin-right: 100px;
+    position: relative;
+    left: 40px;
 }
 .lock {
     width: 50%;

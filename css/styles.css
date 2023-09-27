@@ -50,12 +50,13 @@ p{
    
 }
 
-.lock{
+.lock {
+    height: 400px;
     width: 50%;
     position: relative;
-    right: 20px;
+    left: 60px;
     border-radius: 20%;
-    top:-50px;
+    top: -150px;
 }
 
 .btn-download{
@@ -118,11 +119,14 @@ p{
     width :15%;
     margin : 20px 15px 20px ;
 }
-#pricing {
-    text-align: center;
-    padding: 100px;
-    position: relative;
-}
+
+    #pricing {
+        text-align: center;
+        padding: 100px;
+        position: relative;
+        left: 30px;
+    }
+
 #footer {
     left: -30px;
     text-align: center;

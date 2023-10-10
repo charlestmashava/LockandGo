@@ -40,7 +40,11 @@ b, strong {
     color: #555;
   }
   
-  
+  .lock1 {
+    width: 50%;
+    position: relative;
+    top: -10px;
+}
 
 
 .navbar {

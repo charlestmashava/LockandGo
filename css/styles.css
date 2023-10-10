@@ -53,14 +53,19 @@ p {
 }
 
 .lock {
-    height: 400px;
     width: 50%;
     position: relative;
-    left: 60px;
-
+    left: -100px;
     top: -150px;
 }
 
+.lock1 {
+    width: 50%;
+    position: relative;
+    right: -100px;
+    top: -150px;
+    height: 500px;
+}
 .btn-download {
     margin: 5% 3% 5% 0;
     padding: 5%;
@@ -278,8 +283,17 @@ p {
     .lock {
         width: 50%;
         position: relative;
-
-        top: -50px;
+        left: -100px;
+        top: -10px;
+        height: 150px;
+    }
+    
+    .lock1 {
+        width: 50%;
+        position: relative;
+        right: -100px;
+        top: -150px;
+        height: 500px;
     }
 }
 
